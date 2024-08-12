@@ -14,7 +14,7 @@ const people = [
   {
     name: 'Moko Jono',
     role: 'Female chimpanzee',
-    imageUrl: '/img/mokojono.webp',
+    imageUrl: '/img/mokojoono.svg',
     bio: "Moko Jono (real name: Michelle) is a female chimpanzee from the zoo. Her only appearance is in the episode 'Meet the Beat-Alls', Moko is a parody of performance musician Yoko Ono, who is often attributed as the leading cause of the Beatles' dissolution as a band after she became romantically involved with guitarist and vocalist John Lennon.",
     xUrl: '#',
     linkedinUrl: '#',

@@ -24,7 +24,8 @@ const About = () => {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 w-full mx-auto"
         >
-          Welcome to my blog! <br /> I created this platform to share the experiences and adventures that inspire me and open up new perspectives. Whether it’s about travel, personal growth, or everyday moments, you’ll find everything here that is close to my heart. I hope my stories and experiences will inspire you as well and help you see the world a little differently. Thank you for joining me on this journey!
+          Welcome to my blog! <br /> I created this platform to share the experiences and adventures that inspire me and open up new perspectives. Whether it’s about travel, personal growth, or everyday moments, you’ll find everything here that is close to my heart. I hope my stories and experiences will inspire you as well and help you see the world a little differently. <br />
+          Thank you for joining me on this journey!
         </CardItem>
         <div className="flex justify-between items-center mt-20">
           <CardItem

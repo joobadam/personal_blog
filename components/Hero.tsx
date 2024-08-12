@@ -16,11 +16,11 @@ const Hero = () => {
             </h1>
             <FlipWords />
           </div>
-          <h2 className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl max-w-xl">
+          <h2 className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl max-w-xl text-secondary">
             Sharing the experiences and adventures that inspire me and open up new perspectives.
           </h2>
         </div>
-        <div className="mt-8 lg:mt-0 lg:w-1/2 flex justify-center items-center">
+        <div className="mt-8 lg:mt-0 lg:w-1/2 flex-center">
           <MojoCard />
         </div>
       </div>

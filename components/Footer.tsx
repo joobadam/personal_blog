@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer className="bg-black text-white py-8" id='contact'>
-      <div className="container mx-auto px-4">
+      <div className="container-center">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 w-full md:w-1/2">
             <h3 className="text-xl font-bold mb-2">Subscribe to our newsletter</h3>
@@ -28,12 +28,12 @@ const Footer: React.FC = () => {
                   placeholder="Your email address"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className=" px-4 py-2 rounded-l-md mb-2 sm:mb-0 sm:mr-2 w-full"
+                  className="input-primary mb-2 sm:mb-0 sm:mr-2 w-full text-black"
                   required
                 />
                 <button 
                   type="submit"
-                  className=" hover:bg-rose-400 px-4 py-2 rounded-r-md transition duration-300 w-full sm:w-auto text-black bg-white"
+                  className="button-primary w-full sm:w-auto"
                 >
                   Subscription
                 </button>
@@ -44,9 +44,9 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="flex flex-wrap justify-center md:justify-end space-x-4 mt-4 md:mt-0 w-full md:w-1/2">
-            <a href="#" className="hover:text-rose-400 transition duration-300 mb-2 md:mb-0"><Facebook size={24} /></a>
-            <a href="#" className="hover:text-rose-400 transition duration-300 mb-2 md:mb-0"><Instagram size={24} /></a>
-            <a href="mailto:info@example.com" className="hover:text-rose-400 transition duration-300 mb-2 md:mb-0"><Mail size={24} /></a>
+            <a href="#" className="hover:text-rose-400 hover-transition mb-2 md:mb-0"><Facebook size={24} /></a>
+            <a href="#" className="hover:text-rose-400 hover-transition mb-2 md:mb-0"><Instagram size={24} /></a>
+            <a href="mailto:info@example.com" className="hover:text-rose-400 hover-transition mb-2 md:mb-0"><Mail size={24} /></a>
           </div>
         </div>
         
